@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MyController {
-    @Value("${my.greeting}")
+    @Value("${my.greeting:default-value}")
     String myMessage;
 
     @GetMapping("/greeting")

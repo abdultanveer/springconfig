@@ -11,3 +11,7 @@ public class Application {
 	}
 
 }
+
+//vi application.properties    for external file [outside .jar file]
+// java -jar target/config.demo-0.0.1-SNAPSHOT.jar
+//java -jar target/config.demo-0.0.1-SNAPSHOT.jar   --my.greeting=hello from command line
