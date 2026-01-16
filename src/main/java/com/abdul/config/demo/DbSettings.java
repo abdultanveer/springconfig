@@ -3,9 +3,10 @@ package com.abdul.config.demo;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
 @ConfigurationProperties("db")
-
+@Component
 public class DbSettings {
     String values;
     String host;
