@@ -1,7 +1,7 @@
 db:
-  values: '{url:''https://myurl.com'',username:''abdul'',password:''1234''}'
+  values: '{url:''https://myurl-testdb.com'',username:''abdul'',password:''test-1234''}'
   port: '1200'
-  host: 127.0.0.1
+  host: 10.0.0.1
 management:
   endpoints:
     web:
@@ -10,13 +10,9 @@ management:
 spring:
   application:
     name: config.demo
-  profiles:
-    active:
-      - test
 server:
   port: '9090'
 my:
   greeting: hello spring at quince
   list:
     values: one,two,three
-
